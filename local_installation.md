@@ -2,7 +2,7 @@
 
 There are 3 steps: 
 1. Install dependencies for FLASH
-2. Download and un-tar code
+2. Get FLASH source code
 3. Change paths for dependencies
    
 
@@ -180,7 +180,7 @@ Check if you have all three of them in this directory:
 
 <br>
 
-# 2. Get FLASH Code
+# 2. Get FLASH source Code
 
 Create working directory in your home directory where you would download and untar FLASH code.
 
@@ -190,7 +190,9 @@ mkdir WorkDirectory
 ```
 (you can change name of directory)
 
-download the tar file and untar it in this new direcotry (change name for different versions of code):
+Request access from: https://flash.rochester.edu/site/
+
+Download the tar file and untar it in this new direcotry (change name for different versions of code):
 
 ```bash 
 tar -xvf FLASH4.8.tar
