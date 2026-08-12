@@ -30,3 +30,7 @@ Another useful thing to install is code (for opening/editing files later). To in
 ```bash 
 >Shell Command: install 'code' command in PATH
 ```
+will ask your device password. 
+
+Download Dockerfile from: 
+https://github.com/acreyes/FlashSummer/blob/main/Dockerfile
