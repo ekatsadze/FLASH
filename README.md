@@ -13,3 +13,6 @@ This hub provides steps for
 If you are new to FLASH please follow steps from with_docker_installation.md
 
 These steps are foor MacOS system. If you have Windows please see for_Windows_users.md
+
+For actual running steps please see running_FLASH.md
+
