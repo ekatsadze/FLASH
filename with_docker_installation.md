@@ -92,5 +92,6 @@ To open container in VS Code:
 
 go to remote explorer, and find flash container "flashcenter/flash4-deps-dev"
 
-<img width="358" height="354" alt="Screenshot 2026-08-13 at 13 55 39" src="https://github.com/user-attachments/assets/2f2aae6e-2550-4f0b-b0dd-35ad5990f2e3" />
+<img width="358" height="354" alt="Screenshot 2026-08-13 at 13 57 40" src="https://github.com/user-attachments/assets/0777fcda-24fb-4c23-98e0-5c7efff9166d" />
+
 
