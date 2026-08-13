@@ -55,14 +55,15 @@ cp ~/Downloads/FLASH4.8.tar.gz ~/FLASH/
 ```
 
 ```bash
-cp ~/Downloads/Dockerfile ~/FLASH/
+cp ~/Downloads/Dockerfile.txt ~/FLASH/
 ```
 
-if downloaded dockerfile is called Dockerfile.txt just rename it to Dockerfile:
+Rename "Dockerfile.txt" to "Dockerfile":
 
 ```bash
 mv Dockerfile.txt Dockerfile
 ```
+
 
 
 # 4. Attach Docker container for FLASH to VS Code
@@ -85,5 +86,11 @@ Then after building is complete, type:
 make -j
 docker container create -i -t -h gnu-mpich --name flash4 -v $(pwd):/mnt/data flashcenter/flash4-deps-dev
 ```
+Now you should have attached docker container in your VS Code environment. 
 
+To open container in VS Code:
+
+go to remote explorer, and find flash container "flashcenter/flash4-deps-dev"
+
+<img width="358" height="354" alt="Screenshot 2026-08-13 at 13 55 39" src="https://github.com/user-attachments/assets/2f2aae6e-2550-4f0b-b0dd-35ad5990f2e3" />
 
