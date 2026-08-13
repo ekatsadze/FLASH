@@ -5,7 +5,7 @@ There are 4 steps:
 1. Install required applications: VS Code, Docker Desktop, VisIt (for visualization)
 2. Get FLASH source code
 3. Set up VS Code
-4. Attach FLASH Docker container to VS Code
+4. Attach Docker container for FLASH to VS Code
 
 
 # 1. Install applications
@@ -65,7 +65,7 @@ mv Dockerfile.txt Dockerfile
 ```
 
 
-# 4. Attach FLASH Docker container to VS Code
+# 4. Attach Docker container for FLASH to VS Code
 
 Type: 
 
