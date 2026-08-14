@@ -243,7 +243,7 @@ Try running some test problem now.
 
 There might be some errors when trying to compile. 
 
-# ⭐ Example error: 
+### ⭐ Example error: 
 
 ```gr_hypreF90CAdapters.c:9:10: fatal error: '_hypre_parcsr_ls.h' file not found```
 <br>
@@ -278,13 +278,13 @@ also check that flags look like this:
 FFLAGS_HYPRE = -I${HYPRE_PATH}/include
 CFLAGS_HYPRE = -I${HYPRE_PATH}/include
 ```
-# ⭐ Example error: 
+### ⭐ Example error: 
 Some errors might be addressed [FLASH-USERS] emails.
 Error example:
 ```Error: Reading module 'iso_c_binding.mod' at line 1 column 1: Unexpected EOF```
 to fix it in Makefile.h comment out line “iso_c_binding.mod".
 
-# ⭐ Example error: 
+### ⭐ Example error: 
 ```Driver_computeDt.F90:545:20:```
 Fix: add ```-fallow-argument-mismatch``` to FLAGS_OPT,
 FFLAGS_DEBUG, and FFLAGS_TEST in your Makefile.h
@@ -304,7 +304,7 @@ FFLAGS_TEST = -ggdb -c -fdefault-real-8 -fdefault-double-8 \
 -ffree-line-length-none -fallow-argument-mismatch
 ```
 
-# ⭐ Example error: 
+### ⭐ Example error: 
 Some errors are simply fixed after using:
 
 ```bash
@@ -314,7 +314,7 @@ For example, error I had:
 ```Error: Cannot open module file ‘cond_interface.mod’```
 was fixed after using make clean.
 
-# ⭐ Example error: 
+### ⭐ Example error: 
 ```Error: Cannot open module file ‘conductivity_data.mod’ for reading at (1): No such file or directory compilation terminated```
 the fix has to do with on mac python being called 'python3'. The following worked for me:
 So normally when you type
