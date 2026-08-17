@@ -1,4 +1,4 @@
-# FLASH code Installation Instructions
+# FLASH code Installation & Running Instructions
 
 There are 3 ways you can run FLASH:
 
