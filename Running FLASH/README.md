@@ -45,7 +45,10 @@ for LaserSlab go to chapter “Full-physics Laser Driven Simulation”.
 ```bash
 make -j
 ```
-note: “make -j” uses all available processors, “make” uses one processor or you can specify how many processors you need with “make -j4”.
+note: 
+* “make -j” uses all available processors;
+* “make” uses one processor 
+* “make -j4” uses four processors  
 
 ### 5.  Run
 #### Directory: running directory (which can be same as object directory or different directory if you created it specifically for running)
