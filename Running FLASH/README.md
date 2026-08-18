@@ -28,7 +28,7 @@ Note: change name of directories or version of FLASH you installed if they are d
 
 ## For running FLASH there are three steps:
 ### 1.  Setup
-Directory: in FLASH4.8
+#### Directory: in FLASH4.8
 
 To setup problem you need to enter setup line.
 
@@ -43,19 +43,18 @@ https://flash.rochester.edu/site/flashcode/user_support/flash_ug_devel.pdf
 for LaserSlab go to chapter “Full-physics Laser Driven Simulation”.
 
 ### 3.  Compile
-     <br />
-     Directory: object directory (which is in FLASH4.8 directory)
-     ```bash
-     make -j
-     ```
-     note: “make -j” uses all available processors, just “make” uses one processor or you can specify how many processors you need with “make -j 4”. 
+#### Directory: object directory (which is in FLASH4.8 directory)
+```bash
+make -j
+```
+note: “make -j” uses all available processors, just “make” uses one processor or you can specify how many processors you need with “make -j 4”.
+
 ### 5.  Run
-     <br />
-     Directory: running directory (which can be same as object directory or any other directory which you will make specifically for running)
-     ```bash
-     mpirun -np 4 ./flash4
-     ```
-     “-np 4” here is number of processors; “flash4” is executable which generated after compiling; "./" specifies location of executable (in this case flash4 is in same directory where we compiled - object directory is same as running directory)
+#### Directory: running directory (which can be same as object directory or any other directory which you will make specifically for running)
+```bash
+mpirun -np 4 ./flash4
+```
+“-np 4” here is number of processors; “flash4” is executable which generated after compiling; "./" specifies location of executable (in this case flash4 is in same directory where we compiled - object directory is same as running directory)
 
 ## Setting up your own simulation:
 FLASH code already comes with standard test problems, which you will be able to find here:
