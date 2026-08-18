@@ -75,8 +75,8 @@ cd FLASH4.8/source/Simulation/SimulationMain/magnetoHD
 
 To set up your own simulation, you will mainly need the following six files:
 
-> #### `flash.par`
-> Text file that specifies values for the runtime parameters. It specifies the values of the runtime parameters used in the simulation.
+- #### `flash.par`
+- Text file that specifies values for the runtime parameters. It specifies the values of the runtime parameters used in the simulation.
 
 **Note:** The parameter file can have a different name. FLASH uses CGS units for almost all physical quantities.
 
