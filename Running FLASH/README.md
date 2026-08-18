@@ -5,7 +5,7 @@
      * open flash container
      * open terminal in VS code
      * ```bash 
-         cd /mnt/data/FLASH/FLASH4.8
+       cd /mnt/data/FLASH/FLASH4.8
        ```
 
 
