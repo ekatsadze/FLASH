@@ -24,7 +24,7 @@
      cd WorkDirectory/FLASH4.8
      ```
      
-Note: change name of version of FLASH you installed if it's different.
+Note: change name of directories or version of FLASH you installed if they are different.
 
 ## For running FLASH there are three steps:
 1. Setup
