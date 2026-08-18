@@ -3,14 +3,12 @@
      * open VS code
      * go to remote explorer
      * open flash container      
-<img width="358" height="354" alt="Screenshot 2026-08-13 at 13 57 40" src="https://github.com/user-attachments/assets/0f0708e2-242b-44e2-a1dd-bc69ffe6b39a" />
-
-     * open terminal in VS code
-       
+     * open terminal in VS code   
      * go to your FLASH directory:
-    ```bash 
-    cd /mnt/data/FLASH/FLASH4.8
-    ```
+        ```bash 
+        cd /mnt/data/FLASH/FLASH4.8
+        ```
+<img width="358" height="354" alt="Screenshot 2026-08-13 at 13 57 40" src="https://github.com/user-attachments/assets/0f0708e2-242b-44e2-a1dd-bc69ffe6b39a" />
 
 
 2.  If you installed FLASH locally:
