@@ -44,5 +44,41 @@ Note: change name of version of FLASH you installed if it's different.
      ```
      “-np 4” here is number of processors; “flash4” is executable which generated after compiling; "./" specifies location of executable (in this case flash4 is in same directory where we compiled - object directory is same as running directory)
 
-## Changing test problem/Setting up your own simulation:
-If you need to change one of the test problem and doing your own simulation, you mainly will change things in:
+## Setting up your own simulation:
+FLASH code already comes with standard test problems, which you will be able to find here:
+     ```bash
+     FLASH4.8/source/Simulation/SimulationMain/
+     ```
+or for MHD probelems: 
+     ```bash
+     FLASH4.8/source/Simulation/SimulationMain/magnetoHD
+     ```
+
+To do your own simulation, you mainly will need these 6 files:
+     * flash.par (par file can be named differently): text file that specifies values for the runtime parameters.
+     note: FLASH uses CGS units for all parameters (almost).
+     * Config: for choosing physics modules for problem, adding new runtime parameters and so on.
+     * Simulation_data.F90: where you define global runtime parameters
+     * Simulation_init.F90: where you initialize global simulation parameters (reads runtime parameters)
+     * Simulation_initBlock.F90: where we set initial conditions, geometry and so on.
+     * Makefile
+
+All these files should be in your simulation directory:
+     ```bash
+     FLASH4.8/source/Simulation/SimulationMain/"Your_directory_name"       
+     ```
+After you setup your problem these files (besides Config, which will only be in source/Simulation/SimulationMain/"Your_directory_name") will also copied in object directory:
+     ```bash
+     FLASH4.8/object      
+     ```
+## Changing parameters:
+If you are changing any of these files in FLASH4.8/Simulation/SimulationMain/"Your_directory_name" directory you need to re-setup the problem then re-compile and then re-run.
+
+If you are changing them in your object directory you need to only re-compile and then re-run (only file you won't be able to change in object directory is Config). 
+
+If you are changing only flash.par you need to only to re-run the problem.
+
+
+
+
+
