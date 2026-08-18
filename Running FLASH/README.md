@@ -8,9 +8,9 @@
      * open terminal in VS code
        
      * go to your FLASH directory:
-       ```bash 
-       cd /mnt/data/FLASH/FLASH4.8
-       ```
+    ```bash 
+    cd /mnt/data/FLASH/FLASH4.8
+    ```
 
 
 2.  If you installed FLASH locally:
