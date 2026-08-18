@@ -19,8 +19,8 @@
      ```bash 
      cd
      ```
-then go to directory where you installed FLASH:
-     ```bash 
+    then go to directory where you installed FLASH:
+    ```bash 
      cd WorkDirectory/FLASH4.8
      ```
      
