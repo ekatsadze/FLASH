@@ -9,13 +9,13 @@
 
 2. If you installed FLASH locally, to work with FLASH code you have to:
 * Go to your FLASH directory: from terminal (either from VS Code terminal or your mac terminal) go to home directory:
-```bash 
-cd
-```
+     ```bash 
+     cd
+     ```
 then go to directory where you installed FLASH:
-```bash 
-cd WorkDirectory/FLASH4.8
-```
+     ```bash 
+     cd WorkDirectory/FLASH4.8
+     ```
 Note: change name of version of FLASH you installed if it's different.
 
 ## For running FLASH there are three steps:
