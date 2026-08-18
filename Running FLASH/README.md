@@ -68,13 +68,18 @@ cd FLASH4.8/source/Simulation/SimulationMain/magnetoHD
 ```
 
 To do your own simulation, you mainly will need these 6 files:
-* flash.par (par file can be named differently): text file that specifies values for the runtime parameters.
+#### * flash.par (par file can be named differently):
+  text file that specifies values for the runtime parameters.
      note: FLASH uses CGS units for all parameters (almost).
-* Config: for choosing physics modules for problem, adding new runtime parameters and so on.
-* Simulation_data.F90: where you define global runtime parameters
-* Simulation_init.F90: where you initialize global simulation parameters (reads runtime parameters)
-* Simulation_initBlock.F90: where we set initial conditions, geometry and so on.
-* Makefile
+#### * Config:
+  for choosing physics modules for problem, adding new runtime parameters and so on.
+#### * Simulation_data.F90:
+  where you define global runtime parameters
+#### * Simulation_init.F90:
+  where you initialize global simulation parameters (reads runtime parameters)
+#### * Simulation_initBlock.F90:
+  where we set initial conditions, geometry and so on.
+#### * Makefile
 
 All these files should be in your simulation directory:
      ```bash
