@@ -28,11 +28,9 @@ Note: change name of directories or version of FLASH you installed if they are d
 
 ## For running FLASH there are three steps:
 ### 1.  Setup
-#### Directory: in FLASH4.8
+#### Directory: FLASH4.8
 
-To setup problem you need to enter setup line.
-
-Example setup line for LaserSlab problem:
+To setup problem you need to enter setup line. Example setup line for LaserSlab problem:
 ```bash
 ./setup -auto LaserSlab -2d +cylindrical -nxb=16 -nyb=16 +hdf5typeio species=cham,targ +mtmmmt +laser +uhd3t +mgd mgd_meshgroups=6 -parfile=example.par
 ```
@@ -47,10 +45,10 @@ for LaserSlab go to chapter “Full-physics Laser Driven Simulation”.
 ```bash
 make -j
 ```
-note: “make -j” uses all available processors, just “make” uses one processor or you can specify how many processors you need with “make -j 4”.
+note: “make -j” uses all available processors, “make” uses one processor or you can specify how many processors you need with “make -j4”.
 
 ### 5.  Run
-#### Directory: running directory (which can be same as object directory or any other directory which you will make specifically for running)
+#### Directory: running directory (which can be same as object directory or different directory if you created it specifically for running)
 ```bash
 mpirun -np 4 ./flash4
 ```
