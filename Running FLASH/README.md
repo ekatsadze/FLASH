@@ -67,7 +67,7 @@ or for MHD problems:
 cd FLASH4.8/source/Simulation/SimulationMain/magnetoHD
 ```
 
-## Main Simulation Files
+##### Main Simulation Files
 
 To set up your own simulation, you will mainly need the following six files:
 
