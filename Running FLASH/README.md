@@ -1,13 +1,15 @@
 # Steps for Running FLASH
-1.  If you installed FLASH with Docker, to work with FLASH code you have to:
+1.  If you installed FLASH with Docker:
      * open vs code
      * go to remote explorer
      * open flash container
      * open terminal in VS code
-     * cd to /mnt/data/FLASH/FLASH4.8
+     * ```bash 
+         cd /mnt/data/FLASH/FLASH4.8
+       ```
 
 
-2.  If you installed FLASH locally, to work with FLASH code you have to:
+2.  If you installed FLASH locally:
 * Go to your FLASH directory: from terminal (either from VS Code terminal or your mac terminal) go to home directory:
      ```bash 
      cd
@@ -16,6 +18,7 @@ then go to directory where you installed FLASH:
      ```bash 
      cd WorkDirectory/FLASH4.8
      ```
+     
 Note: change name of version of FLASH you installed if it's different.
 
 ## For running FLASH there are three steps:
