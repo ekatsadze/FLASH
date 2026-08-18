@@ -55,7 +55,7 @@ note:
 ```bash
 mpirun -np 4 ./flash4
 ```
-“-np 4” here is number of processors; “flash4” is executable which generated after compiling; "./" specifies location of executable (in this case flash4 is in same directory where we compiled - object directory is same as running directory)
+“-np 4” here is number of processors; “flash4” is executable which is generated after compiling; "./" specifies location of executable (in this case flash4 is in the current directory - object directory)
 
 ## Setting up your own simulation:
 FLASH code already comes with standard test problems, which you will be able to find here:
