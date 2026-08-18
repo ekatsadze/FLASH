@@ -28,18 +28,19 @@ Note: change name of directories or version of FLASH you installed if they are d
 
 ## For running FLASH there are three steps:
 ### 1.  Setup
-     <br />
-     Directory: in FLASH4.8
-     To setup problem you need to enter setup line.
-     Example setup line for LaserSlab problem:
-     ```bash
-     ./setup -auto LaserSlab -2d +cylindrical -nxb=16 -nyb=16 +hdf5typeio species=cham,targ +mtmmmt +laser +uhd3t +mgd mgd_meshgroups=6 -parfile=example.par
-     ```
-     Look for more detailed infromation in flash user guide:
+<br />
+Directory: in FLASH4.8
+To setup problem you need to enter setup line.
+Example setup line for LaserSlab problem:
+```bash
+./setup -auto LaserSlab -2d +cylindrical -nxb=16 -nyb=16 +hdf5typeio species=cham,targ +mtmmmt +laser +uhd3t +mgd mgd_meshgroups=6 -parfile=example.par
+```
+Look for more detailed infromation in flash user guide:
 
-      https://flash.rochester.edu/site/flashcode/user_support/flash_ug_devel.pdf 
+https://flash.rochester.edu/site/flashcode/user_support/flash_ug_devel.pdf 
 
-      for LaserSlab go to chapter “Full-physics Laser Driven Simulation”.
+for LaserSlab go to chapter “Full-physics Laser Driven Simulation”.
+
 ### 3.  Compile
      <br />
      Directory: object directory (which is in FLASH4.8 directory)
