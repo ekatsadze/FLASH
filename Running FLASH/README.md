@@ -100,7 +100,7 @@ All these files should be in your simulation directory:
 ```bash
 FLASH4.8/source/Simulation/SimulationMain/"Your_directory_name"       
 ```
-After you setup your problem these files (besides Config, which will only be in source/Simulation/SimulationMain/"Your_directory_name") will also copied in object directory:
+After you setup your problem, these files will also copied in object directory (besides Config, which will only be in source/Simulation/SimulationMain/"Your_directory_name"):
 ```bash
 FLASH4.8/object      
 ```
@@ -110,9 +110,9 @@ FLASH4.8/object
 ## Changing parameters:
 If you are changing any of these files in FLASH4.8/Simulation/SimulationMain/"Your_directory_name" directory you need to re-setup the problem then re-compile and then re-run.
 
-If you are changing them in your object directory you need to only re-compile and then re-run (only file you won't be able to change in object directory is Config). 
+If you are changing them in your object directory you only need to re-compile and then re-run (only file you won't be able to change in object directory is Config). 
 
-If you are changing only flash.par you need to only to re-run the problem.
+If you are changing only flash.par you only need to re-run the problem.
 
 
 
