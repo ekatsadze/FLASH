@@ -36,7 +36,7 @@ We will need few VS Code extensions. Open VS Code → Click Extensions icon on t
 2. Dev Container
 3. Might also need to install python if you don’t already have it:
    
-note: to check if you have python installed and to see which version, type in terminal:
+note: to check if you have python installed and to see which version, open terminal and type:
 ```bash
 python --version
 ```
