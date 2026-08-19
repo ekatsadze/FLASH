@@ -11,7 +11,7 @@ There are 3 steps:
 ## Some easy dependencies we need: 
 * C compiler
 * Fortran compiler
-* Python (you can get it from python.org if you don't have it already)
+* Python (you probably already have it, but if not, get it from python.org)
 * utilities like "make" and "git"
 
 ---
