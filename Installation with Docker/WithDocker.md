@@ -28,9 +28,9 @@ Open VS Code → Click Extensions icon on the left part of application, and inst
 
 1. Remote Explorer
 2. Dev Container
-3. Might also need to install python if you don’t have already
+3. Might also need to install python if you don’t already have it
 
-Another useful thing to install is code (for opening/editing files later). To install it in Command Palette type: 
+It will be also useful to install 'code' (for opening/editing files later). To install it in Command Palette type: 
 ```bash 
 >Shell Command: install 'code' command in PATH
 ```
