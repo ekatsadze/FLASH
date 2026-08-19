@@ -75,7 +75,7 @@ go to https://github.com/fxcoudert/gfortran-for-macOS/releases, and download and
 
 <br>
 
-## more tricky dependencies we need: 
+## More tricky dependencies we need: 
 * MPI
 * HDF5
 * HYPRE
