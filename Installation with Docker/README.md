@@ -12,7 +12,7 @@ There are 4 steps:
 
 * VS Code: https://code.visualstudio.com/download?_exp_download=fb315fc982
 * Docker Desktop: https://docs.docker.com/desktop/setup/install/mac-install/
-* VisIt: https://visit-dav.github.io/visit-website/index.html
+* VisIt (for visualization): https://visit-dav.github.io/visit-website/index.html
    
 
 # 2. Get FLASH source code
