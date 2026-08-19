@@ -34,8 +34,17 @@ We will need few VS Code extensions. Open VS Code → Click Extensions icon on t
 ## Required Extensions:
 1. Remote Explorer
 2. Dev Container
-3. Might also need to install python if you don’t already have it
+3. Might also need to install python if you don’t already have it:
+   
+note: to check if you have python installed and to see which version, type in terminal:
+```bash
+python --version
+```
 
+If you have python3 (latest version) you can check by: 
+```bash
+python3 --version
+```
 
 ---
 
