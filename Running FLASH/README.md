@@ -42,7 +42,7 @@ https://flash.rochester.edu/site/flashcode/user_support/flash_ug_devel.pdf
 
 for LaserSlab go to chapter “Full-physics Laser Driven Simulation”.
 
-### 3.  Compile
+### 2.  Compile
 #### Directory: object directory (which is in FLASH4.8 directory)
 ```bash
 make -j
@@ -52,7 +52,7 @@ note:
 * “make” uses one processor 
 * “make -j4” uses four processors  
 
-### 5.  Run
+### 3.  Run
 #### Directory: running directory (which can be same as object directory or different directory if you created it specifically for running)
 ```bash
 mpirun -np 4 ./flash4
