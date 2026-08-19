@@ -249,7 +249,9 @@ There might be some errors when trying to compile.
 ### ⭐ Example error: 
 
 ```gr_hypreF90CAdapters.c:9:10: fatal error: '_hypre_parcsr_ls.h' file not found```
+
 <br>
+
 To fix it add this to the Makefile.h:
 ```fortran
 LIB_LAPACK = -llapack
@@ -285,10 +287,16 @@ CFLAGS_HYPRE = -I${HYPRE_PATH}/include
 Some errors might be addressed [FLASH-USERS] emails.
 Error example:
 ```Error: Reading module 'iso_c_binding.mod' at line 1 column 1: Unexpected EOF```
+
+<br>
+
 to fix it in Makefile.h comment out line “iso_c_binding.mod".
 
 ### ⭐ Example error: 
 ```Driver_computeDt.F90:545:20:```
+
+<br>
+
 Fix: add ```-fallow-argument-mismatch``` to FLAGS_OPT,
 FFLAGS_DEBUG, and FFLAGS_TEST in your Makefile.h
 so it looks like: 
@@ -319,6 +327,9 @@ was fixed after using make clean.
 
 ### ⭐ Example error: 
 ```Error: Cannot open module file ‘conductivity_data.mod’ for reading at (1): No such file or directory compilation terminated```
+
+<br>
+
 the fix has to do with on mac python being called 'python3'. The following worked for me:
 So normally when you type
 ```bash
