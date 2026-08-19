@@ -186,9 +186,9 @@ Go back to home directory:
 cd
 ```
 
-In home directory make a new working directory where you will be working with FLASH code:
+In home directory make a new directory where you will be working with FLASH code:
 ```bash 
-mkdir WorkDirectory
+mkdir FLASH
 ```
 (you can change name of directory)
 
@@ -197,7 +197,7 @@ Request access from: https://flash.rochester.edu/site/
 Download the tar file and untar it in this new direcotry (change name for different versions of code):
 
 ```bash 
-cd WorkDirectory
+cd FLASH
 ```
 
 ```bash 
