@@ -361,3 +361,10 @@ alias -g python="python3"
 ```
 
 then either start a new terminal or type ```source ~/.zshrc```
+
+
+# Sources: 
+* Presentation by Petros Tzeferacos
+* Notes by Adam Reyes
+
+
