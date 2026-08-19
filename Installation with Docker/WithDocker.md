@@ -19,7 +19,7 @@ Request access from: https://flash.rochester.edu/site/
 
 <img width="1295" height="658" alt="Screenshot 2026-08-19 at 10 35 43" src="https://github.com/user-attachments/assets/c66e48e1-d366-478f-9686-d2a014311882" />
 
-
+<br>
 
 After getting access you will receive email with link from where you will be able to download the tar file of source code.
 
