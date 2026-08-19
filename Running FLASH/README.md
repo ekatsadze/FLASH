@@ -97,13 +97,13 @@ To set up your own simulation, you will mainly need the following six files:
 
 
 All these files should be in your simulation directory:
-     ```bash
-     FLASH4.8/source/Simulation/SimulationMain/"Your_directory_name"       
-     ```
+```bash
+FLASH4.8/source/Simulation/SimulationMain/"Your_directory_name"       
+```
 After you setup your problem these files (besides Config, which will only be in source/Simulation/SimulationMain/"Your_directory_name") will also copied in object directory:
-     ```bash
-     FLASH4.8/object      
-     ```
+```bash
+FLASH4.8/object      
+```
 
 ---
 
