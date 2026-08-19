@@ -25,9 +25,9 @@ After getting access you will receive email with link from where you will be abl
 
 # 3. Set up VS Code
 
-We will be working in VS Code. To run FLASH we need to attach Docker container for FLASH to VS Code. For that we will need few extensions inside app.
+We will be working in VS Code. To setup application for running FLASH:
 
-Open VS Code → Click Extensions icon on the left part of application, and install extensions:
+We will need few VS Code extensions. Open VS Code → Click Extensions icon on the left part of application, and install extensions:
 
 <img width="447" height="406" alt="Screenshot 2026-08-19 at 10 16 57" src="https://github.com/user-attachments/assets/70f1d065-1963-4144-92e6-45fbc9eb65aa" />
 
