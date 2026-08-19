@@ -95,7 +95,7 @@ https://formulae.brew.sh/formula/open-mpi
 https://www.open-mpi.org/
 
 
-This should install open-mpi into /opt/homebrew/Cellar
+This should install open-mpi into ```bash /opt/homebrew/Cellar```
 
 
 <br>
