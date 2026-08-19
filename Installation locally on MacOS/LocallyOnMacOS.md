@@ -132,7 +132,7 @@ sudo make install
 ```
 note: using sudo will ask you for your admin password.
 
-After following these steps hdf5 and hypre have to be in /usr/local/flash-deps directory!
+After following these steps hdf5 and hypre have to be in ```bash /usr/local/flash-deps``` directory!
 
 cd out of hdf5 directory
 
