@@ -88,7 +88,8 @@ Here I am showing installation of openMPI with homebrew, but HDF5 and HYPRE from
 ```bash 
 brew install open-mpi
 ```
-(check out: 
+(more information: 
+
 https://formulae.brew.sh/formula/open-mpi
 
 https://www.open-mpi.org/)
