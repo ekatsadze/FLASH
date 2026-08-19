@@ -181,9 +181,12 @@ cd ..
 
 # 2. Get FLASH source code
 
-Create working directory in your home directory where you would download and untar FLASH code.
+Go back to home directory:
+```bash
+cd
+```
 
-In your home direcoty:
+In home directory make a new working directory where you will be working with FLASH code:
 ```bash 
 mkdir WorkDirectory
 ```
