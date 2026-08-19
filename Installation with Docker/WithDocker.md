@@ -35,7 +35,7 @@ Open VS Code → Click Extensions icon on the left part of application, and inst
 
 ---
 
-It will be also useful to install 'code' (for opening/editing files later). To install it in Command Palette (Cmd+Shift+P) and
+It will be also useful to install 'code' (for opening/editing files later). To install it, open Command Palette (Cmd+Shift+P) and
  type: 
 ```bash 
 >Shell Command: install 'code' command in PATH
