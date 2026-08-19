@@ -151,7 +151,7 @@ After this go to directory containing FLASH.
 
 # 4. Attach Docker container for FLASH to VS Code
 
-Make sure you are in directory 'FLASH' directory containing tar file and Dockerfile.
+Make sure you are in 'FLASH' directory containing tar file and Dockerfile.
 
 Type: 
 
