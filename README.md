@@ -1,6 +1,6 @@
 # FLASH code Installation & Running Instructions
 
-There are 3 ways you can run FLASH:
+There are 3 ways you can use FLASH:
 
 1. on your local device (you will need to install dependencies for FLASH)
 2. use Docker Container (easier than first one, since Docker already has all the required dependencies)
