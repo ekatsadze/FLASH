@@ -64,6 +64,42 @@ Rename "Dockerfile.txt" to "Dockerfile":
 mv Dockerfile.txt Dockerfile
 ```
 
+# Additional steps for Windows users:
+To run FLASH on Windows, you will need to install WSL. 
+Open PowerShell as administrator and run: 
+```bash
+wsl --install
+```
+Restart computer if Windows asks for it.
+If it does not start installing something, try the following:
+```bash
+wsl --install -d Ubuntu
+```
+Verify installation and version with: 
+```bash
+wsl -l -v
+```
+This should say version 2.
+
+Docker requires WSL2. If it says WSL1 convert it to WSL2:
+```bash
+wsl --set-version Ubuntu 2
+```
+
+After that make sure Docker is integrated with WSL:
+* Open Docker application
+* Go to Settings
+* Click resources
+* Activate WSL integration: "Enable integration with my default WSL distro"
+* Click Apply & Restart
+
+Then open terminal (either VS Code terminal or command prompt) and type:
+```bash
+ubuntu
+```
+This will open WSL environment.
+
+After this go to directory containing FLASH.
 
 
 # 4. Attach Docker container for FLASH to VS Code
