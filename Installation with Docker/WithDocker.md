@@ -71,36 +71,40 @@ https://github.com/acreyes/FlashSummer/blob/main/Dockerfile
 
 <br>
 
-In VS Code open terminal and rename "Dockerfile.txt" to "Dockerfile":
-```bash
-cd ~/Downloads
-```
+---
 
-```bash
-mv Dockerfile.txt Dockerfile
-```
+## Note: for next steps we will be working in VS Code terminal
 
---- 
-
-Go back to home directory:
+Make sure you are in home directory:
 ```bash
 cd
 ```
 
-In home directory make a new working directory where you will be working with FLASH code:
+In home directory make a new directory where you will be working with FLASH code:
 ```bash
-mkdir WorkDirectory
+mkdir FLASH
 ```
 (you can change name of directory as preferred)
 
-in this new directory copy tar file of the code and downloaded Dockerfile (adjust name of tar file if you download different version of code and change name of directory if you change it):
+Go to new directory:
+```bash
+cd FLASH
+```
+
+in this new directory copy tar file of the code and downloaded Dockerfile (adjust name of tar file if you download different version of code):
 
 ```bash
-cp ~/Downloads/FLASH4.8.tar.gz ~/WorkDirectory/
+cp ~/Downloads/FLASH4.8.tar.gz .
 ```
 
 ```bash
-cp ~/Downloads/Dockerfile ~/WorkDirectory/
+cp ~/Downloads/Dockerfile.txt .
+```
+
+Rename "Dockerfile.txt" to "Dockerfile":
+
+```bash
+mv Dockerfile.txt Dockerfile
 ```
 
 --- 
@@ -142,9 +146,12 @@ This will open WSL environment.
 
 After this go to directory containing FLASH.
 
+## Note: Continue next steps in WSL terminal.
 --- 
 
 # 4. Attach Docker container for FLASH to VS Code
+
+Make sure you are in directory 'FLASH' directory containing tar file and Dockerfile.
 
 Type: 
 
