@@ -53,7 +53,11 @@ It will be also useful to install 'code' (for opening/editing files later). To i
 ```bash 
 >Shell Command: install 'code' command in PATH
 ```
-<img width="591" height="79" alt="Screenshot 2026-08-19 at 10 18 41" src="https://github.com/user-attachments/assets/175707e4-1b9c-4e8f-ac7f-f381776b2d50" />
+<br>
+
+<img width="1510" height="271" alt="Screenshot 2026-08-19 at 10 48 54" src="https://github.com/user-attachments/assets/dc5b0dc7-0a7c-4020-abab-a5bd759c1b29" />
+
+<br>
 
 It will ask for your device password. 
 
