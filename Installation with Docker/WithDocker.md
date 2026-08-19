@@ -27,24 +27,16 @@ After getting access you will receive email with link from where you will be abl
 
 We will be working in VS Code. To setup application for running FLASH:
 
-We will need few VS Code extensions. Open VS Code → Click Extensions icon on the left part of application, and install extensions:
-
-<img width="447" height="406" alt="Screenshot 2026-08-19 at 10 16 57" src="https://github.com/user-attachments/assets/70f1d065-1963-4144-92e6-45fbc9eb65aa" />
+We will need few VS Code extensions. Open VS Code → Click Extensions icon on the left part of application, and install extensions.
 
 ## Required Extensions:
 1. Remote Explorer
 2. Dev Container
-3. Might also need to install python if you don’t already have it:
-   
-note: to check if you have python installed and to see which version, open terminal and type:
-```bash
-python --version
-```
 
-If you have python3 (latest version), you can check with: 
-```bash
-python3 --version
-```
+
+
+<img width="447" height="406" alt="Screenshot 2026-08-19 at 10 16 57" src="https://github.com/user-attachments/assets/70f1d065-1963-4144-92e6-45fbc9eb65aa" />
+
 
 ---
 
