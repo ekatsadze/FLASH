@@ -34,6 +34,7 @@ Open VS Code → Click Extensions icon on the left part of application, and inst
 
 
 <br>
+---
 
 It will be also useful to install 'code' (for opening/editing files later). To install it in Command Palette (Cmd+Shift+P) and
  type: 
@@ -42,8 +43,9 @@ It will be also useful to install 'code' (for opening/editing files later). To i
 ```
 <img width="591" height="79" alt="Screenshot 2026-08-19 at 10 18 41" src="https://github.com/user-attachments/assets/175707e4-1b9c-4e8f-ac7f-f381776b2d50" />
 
-will ask your device password. 
+It will ask your device password. 
 
+---
 
 Then download Dockerfile from: 
 https://github.com/acreyes/FlashSummer/blob/main/Dockerfile
