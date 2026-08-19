@@ -1,5 +1,4 @@
 # Installing FLASH with Docker
-source: https://github.com/acreyes/FlashSummer/blob/main/docs/IntroSciComp.md
 
 There are 4 steps: 
 1. Install required applications: VS Code, Docker Desktop, VisIt (for visualization)
@@ -152,5 +151,11 @@ go to remote explorer, and find flash container "flashcenter/flash4-deps-dev"
 
 <img width="358" height="354" alt="Screenshot 2026-08-13 at 13 57 40" src="https://github.com/user-attachments/assets/0f0708e2-242b-44e2-a1dd-bc69ffe6b39a" />
 
+
+
+
+#Sources: 
+* https://github.com/acreyes/FlashSummer/blob/main/docs/IntroSciComp.md
+* Presentation by Kassie Moczulski & Abigail Armstrong.
 
 
