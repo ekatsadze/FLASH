@@ -7,7 +7,7 @@ There are 4 steps:
 4. Attach Docker container for FLASH to VS Code
 
 
-# 1. Install applications
+# 1. Install required applications
 
 * VS Code: https://code.visualstudio.com/download?_exp_download=fb315fc982
 * Docker Desktop: https://docs.docker.com/desktop/setup/install/mac-install/
