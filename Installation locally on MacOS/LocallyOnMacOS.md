@@ -179,7 +179,7 @@ cd ..
 
 <br>
 
-# 2. Get FLASH source Code
+# 2. Get FLASH source code
 
 Create working directory in your home directory where you would download and untar FLASH code.
 
