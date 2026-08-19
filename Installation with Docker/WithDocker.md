@@ -105,7 +105,7 @@ cp ~/Downloads/Dockerfile ~/WorkDirectory/
 
 --- 
 
-# Additional steps for Windows users:
+# Additional steps for Windows users only
 To run FLASH on Windows, you will need to install WSL. 
 Open PowerShell as administrator and run: 
 ```bash
