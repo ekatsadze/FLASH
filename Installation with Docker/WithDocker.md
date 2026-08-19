@@ -13,7 +13,7 @@ There are 4 steps:
 * VS Code: https://code.visualstudio.com/download?_exp_download=fb315fc982
 * Docker Desktop: https://docs.docker.com/desktop/setup/install/mac-install/
 * VisIt (for visualization): https://visit-dav.github.io/visit-website/index.html
-   
+
 
 # 2. Get FLASH source code
 Request access from: https://flash.rochester.edu/site/
@@ -30,11 +30,17 @@ Open VS Code → Click Extensions icon on the left part of application, and inst
 2. Dev Container
 3. Might also need to install python if you don’t already have it
 
-It will be also useful to install 'code' (for opening/editing files later). To install it in Command Palette type: 
+<img width="447" height="406" alt="Screenshot 2026-08-19 at 10 16 57" src="https://github.com/user-attachments/assets/70f1d065-1963-4144-92e6-45fbc9eb65aa" />
+
+It will be also useful to install 'code' (for opening/editing files later). To install it in Command Palette (Cmd+Shift+P) and
+ type: 
 ```bash 
 >Shell Command: install 'code' command in PATH
 ```
+<img width="591" height="79" alt="Screenshot 2026-08-19 at 10 18 41" src="https://github.com/user-attachments/assets/175707e4-1b9c-4e8f-ac7f-f381776b2d50" />
+
 will ask your device password. 
+
 
 Then download Dockerfile from: 
 https://github.com/acreyes/FlashSummer/blob/main/Dockerfile
