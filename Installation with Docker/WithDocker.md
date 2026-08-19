@@ -32,6 +32,8 @@ Open VS Code → Click Extensions icon on the left part of application, and inst
 
 <img width="447" height="406" alt="Screenshot 2026-08-19 at 10 16 57" src="https://github.com/user-attachments/assets/70f1d065-1963-4144-92e6-45fbc9eb65aa" />
 
+<br>
+
 It will be also useful to install 'code' (for opening/editing files later). To install it in Command Palette (Cmd+Shift+P) and
  type: 
 ```bash 
