@@ -51,13 +51,14 @@ https://github.com/acreyes/FlashSummer/blob/main/Dockerfile
 
 <img width="1170" height="478" alt="Screenshot 2026-08-19 at 10 21 47" src="https://github.com/user-attachments/assets/19ad126b-99e6-4a4d-9282-9a5d61b95138" />
 
+--- 
 
 In VS Code open terminal and go to home directory:
 ```bash
 cd
 ```
 
-In home directory make new working directory where you want to install flash:
+In home directory make new working directory where you want to install FLASH code:
 ```bash
 mkdir WorkDirectory
 ```
@@ -78,6 +79,7 @@ Rename "Dockerfile.txt" to "Dockerfile":
 ```bash
 mv Dockerfile.txt Dockerfile
 ```
+--- 
 
 # Additional steps for Windows users:
 To run FLASH on Windows, you will need to install WSL. 
@@ -116,6 +118,7 @@ This will open WSL environment.
 
 After this go to directory containing FLASH.
 
+--- 
 
 # 4. Attach Docker container for FLASH to VS Code
 
