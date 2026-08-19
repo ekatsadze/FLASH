@@ -64,14 +64,14 @@ mkdir WorkDirectory
 ```
 (you can change name of directory as preferred)
 
-in this new directory copy tar file of the code and downloaded Dockerfile (adjust names of files or directories if needed):
+in this new directory copy tar file of the code and downloaded Dockerfile (adjust names of tar file if you download different version and name of directory if you change it):
 
 ```bash
-cp ~/Downloads/FLASH4.8.tar.gz ~/FLASH/
+cp ~/Downloads/FLASH4.8.tar.gz ~/WorkDirectory/
 ```
 
 ```bash
-cp ~/Downloads/Dockerfile.txt ~/FLASH/
+cp ~/Downloads/Dockerfile.txt ~/WorkDirectory/
 ```
 
 Rename "Dockerfile.txt" to "Dockerfile":
