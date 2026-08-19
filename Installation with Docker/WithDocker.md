@@ -168,7 +168,6 @@ just type command by hand instead of copy-paste.
 
 Then after building is complete, type: 
 ```bash
-make -j
 docker container create -i -t -h gnu-mpich --name flash4 -v $(pwd):/mnt/data flashcenter/flash4-deps-dev
 ```
 Now you should have attached docker container in your VS Code environment. 
