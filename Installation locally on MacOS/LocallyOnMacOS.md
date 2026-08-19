@@ -16,9 +16,8 @@ There are 3 steps:
 * Python (you probably already have it, but if not as extra step, get it from python.org)
 
 
----
+To install these, open terminal and copy these commands there. We will need:
 
-Open terminal and copy these commands there. We will need:
 ### ⭐ xcode
 
 ```bash 
