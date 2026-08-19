@@ -12,7 +12,7 @@ There are 3 steps:
 * C compiler
 * Fortran compiler
 * Python (you probably already have it, but if not, get it from python.org)
-* utilities like "make" and "git"
+* utilities: make & git
 
 ---
 
@@ -23,7 +23,7 @@ Open terminal and copy these commands there. We will need:
 xcode-select --install
 ```
 
-This installs the Xcode Command Line Tools package. We need it to get C compilers, "make" utility and git. 
+This installs the Xcode Command Line Tools package. We need it to get C compilers, make & git. 
 
 ---
 
