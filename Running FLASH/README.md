@@ -108,11 +108,76 @@ FLASH4.8/object
 ---
 
 ## Changing parameters:
-If you are changing any of these files in FLASH4.8/Simulation/SimulationMain/"Your_directory_name" directory you need to re-setup the problem then re-compile and then re-run.
+* If you are changing any of these files in FLASH4.8/Simulation/SimulationMain/"Your_directory_name" directory you need to re-setup the problem then re-compile and then re-run.
 
-If you are changing them in your object directory you only need to re-compile and then re-run (only file you won't be able to change in object directory is Config). 
+* If you are changing them in your object directory you only need to re-compile and then re-run (only file you won't be able to change in object directory is Config). 
 
-If you are changing only flash.par you only need to re-run the problem.
+* If you are changing only flash.par you only need to re-run the problem.
+
+---
+
+## Organize and manage data:
+
+### 1.  Setup
+
+Before setting up problem, make a new directory in SimulationMain directory:
+```bash
+mkdir Your_directory_name
+```
+or copy similar test problem:
+```bash
+cp -r LaserSlab Your_directory_name
+```
+It is always useful to have new directories if you plan to change something, so if something goes wrong you can always go back to original test problem. 
+
+In similar way we will make new object directory, instead of overwriting in one object directory.
+
+You can do same setup line but instead of LaserSlab you use Your_directory_name and in the end you can also specify your new object directory name:
+```bash
+./setup -auto Your_directory_name -2d +cylindrical -nxb=16 -nyb=16 +hdf5typeio
+species=cham,targ +mtmmmt +laser +uhd3t +mgd mgd_meshgroups=6 -parfile=example.par -objdir=object_directory_name
+```
+this will setup problem in new directory (object_directory_name), which will be your new object directory. 
+
+### 2.  Compile
+
+Compilation will be same way, just make sure you are in your new object directory (object_directory_name):
+
+```bash
+make -j
+```
+
+### 3.  Run
+
+Before running, in your new object directory make new directory:
+```bash
+mkdir data 
+```
+```bash
+cp flash.par data/
+```
+```bash
+cd data
+```
+This is especially useful if you want to do several runs with different runtime parameters. It will be also easier to find your output files easier. 
+
+Now you will be in ```/FLASH4.8/object_directory_name/data``` and you will run simulation here. 
+
+note: you have to copy par file to run in data directory. For problems, where you use tabulated eos, you will also need to copy those eos files. 
+
+For example, in LaserSlab problem we have two materials helium and aluminum, so you need to copy two ionmix files: al-imx-003.cn4 and he-imx-005.cn4 in data directory. If you are already in data directory you can use this command to copy all ionmix files:
+```bash
+cp ../*imx* .
+```
+Now you are able to run:
+```bash
+mpirun -np 4 ../flash4
+```
+Note that for running now you do two dots, because your flash4 is in object directory (previous directory).
+
+# IMPORTANT: Make sure you are always in correct directory for each of these steps to go smooth.
+
+
 
 
 
