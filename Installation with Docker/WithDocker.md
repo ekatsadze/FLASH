@@ -173,7 +173,9 @@ docker container create -i -t -h gnu-mpich --name flash4 -v $(pwd):/mnt/data fla
 ```
 Now you should have attached docker container in your VS Code environment. 
 
-To open container in VS Code:
+---
+
+## To open container in VS Code:
 
 go to remote explorer, and find flash container "flashcenter/flash4-deps-dev"
 
