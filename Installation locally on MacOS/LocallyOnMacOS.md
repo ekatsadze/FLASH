@@ -209,9 +209,9 @@ We need to change paths to the dependencies in Makefile.h file.
 
 <br>
 
-Makefile.h is in ```FLASH4.8/sites/Prototypes/Darwin``` directory.
+Makefile.h is in ```FLASH4.8/sites/Prototypes/Darwin``` directory (also in the object directory and they are linked).
 
-in this file paths for dependencies should look like this:
+Change the paths for dependencies in Makefile.h. They should look like this:
 
 ```fortran
 #HDF4_PATH =
