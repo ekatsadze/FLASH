@@ -87,7 +87,7 @@ Go back to home directory:
 cd
 ```
 
-In home directory make new working directory where you want to install FLASH code:
+In home directory make a new working directory where you will be working with FLASH code:
 ```bash
 mkdir WorkDirectory
 ```
