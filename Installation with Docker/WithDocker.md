@@ -42,7 +42,7 @@ It will be also useful to install 'code' (for opening/editing files later). To i
 ```
 <img width="591" height="79" alt="Screenshot 2026-08-19 at 10 18 41" src="https://github.com/user-attachments/assets/175707e4-1b9c-4e8f-ac7f-f381776b2d50" />
 
-It will ask your device password. 
+It will ask for your device password. 
 
 ---
 
