@@ -33,7 +33,6 @@ Open VS Code → Click Extensions icon on the left part of application, and inst
 3. Might also need to install python if you don’t already have it
 
 
-<br>
 ---
 
 It will be also useful to install 'code' (for opening/editing files later). To install it in Command Palette (Cmd+Shift+P) and
