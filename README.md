@@ -7,9 +7,8 @@ There are 3 ways you can run FLASH:
 3. run it on cluster (also easy and probably has everything required, but it's very unique for specific clusters)
 
 This hub provides steps for:
-  * Installing FLASH on local device (see "Local Installation" folder)
-  * Installing FLASH with using Docker container (see "Installation with Docker" folder)
-  * Some additional steps for Windows users (see "For Windows Users" folder)
+  * Installing FLASH on local MacOS device (see "Installation locally on MacOS" folder)
+  * Installing FLASH with Docker container (see "Installation with Docker" folder)
   * Running FLASH (see "Running FLASH" folder)
 
-If you are new to FLASH please ignore "Local Installation".
+If you are new to FLASH please ignore "Installation locally on MacOS".
