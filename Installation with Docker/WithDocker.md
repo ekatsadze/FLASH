@@ -17,6 +17,7 @@ There are 4 steps:
 
 # 2. Get FLASH source code
 Request access from: https://flash.rochester.edu/site/
+and download the tar file of source code.
 
 # 3. Set up VS Code
 
