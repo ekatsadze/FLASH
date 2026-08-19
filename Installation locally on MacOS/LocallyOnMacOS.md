@@ -88,11 +88,12 @@ Here I am showing installation of openMPI with homebrew, but HDF5 and HYPRE from
 ```bash 
 brew install open-mpi
 ```
-(more information: 
+Find more information here: 
 
 https://formulae.brew.sh/formula/open-mpi
 
-https://www.open-mpi.org/)
+https://www.open-mpi.org/
+
 
 This should install open-mpi into /opt/homebrew/Cellar
 
