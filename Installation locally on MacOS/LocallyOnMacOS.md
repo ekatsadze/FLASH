@@ -8,7 +8,7 @@ There are 3 steps:
 
 # 1. Install dependencies
 
-## Some easy dependencies we need: 
+## Easy dependencies we need: 
 * C compiler
 * Fortran compiler
 * utilities: make & git
