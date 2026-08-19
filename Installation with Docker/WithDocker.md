@@ -93,7 +93,7 @@ mkdir WorkDirectory
 ```
 (you can change name of directory as preferred)
 
-in this new directory copy tar file of the code and downloaded Dockerfile (adjust names of tar file if you download different version and name of directory if you change it):
+in this new directory copy tar file of the code and downloaded Dockerfile (adjust name of tar file if you download different version of code and change name of directory if you change it):
 
 ```bash
 cp ~/Downloads/FLASH4.8.tar.gz ~/WorkDirectory/
