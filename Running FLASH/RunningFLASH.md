@@ -28,7 +28,7 @@ Note: change name of directories or version of FLASH you installed if they are d
 
 ---
 
-## For running FLASH there are three steps:
+# For running FLASH simulations there are three steps:
 ### 1.  Setup
 #### Directory: FLASH4.8
 
@@ -61,7 +61,7 @@ mpirun -np 4 ./flash4
 
 ---
 
-## Setting up your own simulation:
+# Setting up your own simulation:
 FLASH code already comes with standard test problems, which you will be able to find here:
 ```bash
 FLASH4.8/source/Simulation/SimulationMain/
@@ -107,7 +107,7 @@ FLASH4.8/object
 
 ---
 
-## Changing parameters:
+# Changing parameters:
 * If you are changing any of these files in FLASH4.8/Simulation/SimulationMain/"Your_directory_name" directory you need to re-setup the problem then re-compile and then re-run.
 
 * If you are changing them in your object directory you only need to re-compile and then re-run (only file you won't be able to change in object directory is Config). 
@@ -116,7 +116,7 @@ FLASH4.8/object
 
 ---
 
-## Organize and manage data:
+# Organize and manage data:
 
 ### 1.  Setup
 
