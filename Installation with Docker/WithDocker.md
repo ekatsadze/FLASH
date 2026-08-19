@@ -41,7 +41,7 @@ note: to check if you have python installed and to see which version, open termi
 python --version
 ```
 
-If you have python3 (latest version) you can check by: 
+If you have python3 (latest version), you can check with: 
 ```bash
 python3 --version
 ```
