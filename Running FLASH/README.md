@@ -64,11 +64,11 @@ mpirun -np 4 ./flash4
 ## Setting up your own simulation:
 FLASH code already comes with standard test problems, which you will be able to find here:
 ```bash
-cd FLASH4.8/source/Simulation/SimulationMain/
+FLASH4.8/source/Simulation/SimulationMain/
 ```
 or for MHD problems: 
 ```bash
-cd FLASH4.8/source/Simulation/SimulationMain/magnetoHD
+FLASH4.8/source/Simulation/SimulationMain/magnetoHD
 ```
 
 ### Main Simulation Files
