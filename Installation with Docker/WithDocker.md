@@ -71,7 +71,7 @@ https://github.com/acreyes/FlashSummer/blob/main/Dockerfile
 
 <br>
 
-Rename "Dockerfile.txt" to "Dockerfile":
+In VS Code open terminal and rename "Dockerfile.txt" to "Dockerfile":
 ```bash
 cd ~/Downloads
 ```
@@ -82,7 +82,7 @@ mv Dockerfile.txt Dockerfile
 
 --- 
 
-In VS Code open terminal and go to home directory:
+Go back to home directory:
 ```bash
 cd
 ```
