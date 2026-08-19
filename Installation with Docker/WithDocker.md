@@ -31,6 +31,7 @@ We will need few VS Code extensions. Open VS Code → Click Extensions icon on t
 
 <img width="447" height="406" alt="Screenshot 2026-08-19 at 10 16 57" src="https://github.com/user-attachments/assets/70f1d065-1963-4144-92e6-45fbc9eb65aa" />
 
+## Required Extensions:
 1. Remote Explorer
 2. Dev Container
 3. Might also need to install python if you don’t already have it
