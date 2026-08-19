@@ -51,6 +51,15 @@ https://github.com/acreyes/FlashSummer/blob/main/Dockerfile
 
 <img width="1170" height="478" alt="Screenshot 2026-08-19 at 10 21 47" src="https://github.com/user-attachments/assets/19ad126b-99e6-4a4d-9282-9a5d61b95138" />
 
+Rename "Dockerfile.txt" to "Dockerfile":
+```bash
+cd ~/Downloads
+```
+
+```bash
+mv Dockerfile.txt Dockerfile
+```
+
 --- 
 
 In VS Code open terminal and go to home directory:
@@ -71,14 +80,9 @@ cp ~/Downloads/FLASH4.8.tar.gz ~/WorkDirectory/
 ```
 
 ```bash
-cp ~/Downloads/Dockerfile.txt ~/WorkDirectory/
+cp ~/Downloads/Dockerfile ~/WorkDirectory/
 ```
 
-Rename "Dockerfile.txt" to "Dockerfile":
-
-```bash
-mv Dockerfile.txt Dockerfile
-```
 --- 
 
 # Additional steps for Windows users:
