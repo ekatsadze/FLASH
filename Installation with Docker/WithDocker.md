@@ -156,6 +156,6 @@ go to remote explorer, and find flash container "flashcenter/flash4-deps-dev"
 
 # Sources: 
 * https://github.com/acreyes/FlashSummer/blob/main/docs/IntroSciComp.md
-* Presentation by Kassie Moczulski & Abigail Armstrong.
+* Presentation by Kassie Moczulski, Abigail Armstrong & Petros Tzeferacos
 
 
