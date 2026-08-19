@@ -176,7 +176,7 @@ This will attach docker container in your VS Code environment.
 
 ## To open container in VS Code:
 
-go to remote explorer, and find flash container "flashcenter/flash4-deps-dev"
+Click remote explorer icon on left side of VS code and find flash container "flashcenter/flash4-deps-dev":
 
 <img width="358" height="354" alt="Screenshot 2026-08-13 at 13 57 40" src="https://github.com/user-attachments/assets/0f0708e2-242b-44e2-a1dd-bc69ffe6b39a" />
 
