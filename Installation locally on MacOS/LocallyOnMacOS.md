@@ -176,10 +176,6 @@ That should be it. cd out of hypre directory:
 ```bash 
 cd ..
 ```
-You should see there 3 directories with the source for openMPI, hdf5 & hypre which can be removed if you wish. 
-
-Check if you have all three of them in this directory: 
-```/usr/local/flash-deps```
 
 <br>
 
